@@ -47,7 +47,8 @@ function binDec (arrayVar) {
 
 $(function () {
 
-  $('form').click(function () {
+  $('form').submit(function () {
+    event.preventDefault();
     $('#result').text(binDec(stringMake($('input#userInput').val())));
   });
 });
