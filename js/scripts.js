@@ -1,20 +1,20 @@
-// =============
-
-function arrMake (userString) {
-  return userString.String('');
-};
-
-function binDec (arrayVar) {
-  val = 0;
-    for (i = 0; i <= arrayVar.length; i++) {
-      alert('this is i ' + i);
-      a = parseInt(arrayVar[i]);
-      alert('this is a ' + a);
-      val = val += i * i + a;
-      alert('this is val ' + val);
-    };
-  return val;
-};
+// // =============
+//
+// function arrMake (userString) {
+//   return userString.String('');
+// };
+//
+// function binDec (arrayVar) {
+//   val = 0;
+//     for (i = 0; i <= arrayVar.length; i++) {
+//       alert('this is i ' + i);
+//       a = parseInt(arrayVar[i]);
+//       alert('this is a ' + a);
+//       val = val += i * i + a;
+//       alert('this is val ' + val);
+//     };
+//   return val;
+// };
 
 function stringMake (userString) {
   stringMade = String(userString);
